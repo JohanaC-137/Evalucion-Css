@@ -5,17 +5,17 @@ $("#btnagregar").click(function(){
 $("#parrafo").append("<br>");
     
     $(function() {
-    'use strict';
+    "use strict";
    
-    var boton = $('#btnbusca');
-    var resultado = $('#valor');
-    var input = $('#source');
+    var boton = $("#btnbusca2");
+    var resultado = $("#valor");
+    var input = $("#source");
   
-    boton.on('click', function() {
+    boton.on("click", function() {
       var valor = input.val()
-      boton.data('user', valor);
+      boton.data("user", valor);
   
-      resultado.text(boton.data('user'));
+      resultado.text(boton.data("user"));
     });
     });
   });
@@ -40,12 +40,12 @@ $("#boton").click(function(){
 
 //-------------------------------------------------
 //val
-$('form').on('submit', function(event) {
+$("form").on("submit", function(event) {
     event.preventDefault();
     
-    var $input = $(this).find('input');
+    var $input = $(this).find("input");
     var input = $input.val();
-    $('#text-output').text("Tu color es:" + input);
+    $("#text-output").text("Tu color es:" + input);
 });
 
 //------------------------------------------------
