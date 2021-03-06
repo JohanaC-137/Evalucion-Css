@@ -1,0 +1,46 @@
+header {
+    background-color:cornflowerblue; 
+    color:white;}
+
+button{
+    background: cornflowerblue;
+    padding: 10px;}
+
+.container1{
+    background: antiquewhite;
+    border: solid;
+    border-color:white;
+    padding: 40px;
+    width: 90%; 
+    padding-top: 30px;
+    padding-right: 10px;  
+    padding-left: 10px;  
+    margin-right: auto;  
+    margin-left: auto;} 
+    
+.titulo{
+    background: cornflowerblue;
+    font-size: 30px;
+    color:antiquewhite;
+    padding: 5px;
+    margin: 10px;}
+
+img{
+    width: 100%;
+    display:block;
+    padding-top: 30px;
+    padding-right: 10px;  
+    padding-left: 10px;  
+    margin-right: auto;  
+    margin-left: auto;}
+
+.texto{
+    padding-top: 100px;
+    margin: auto;}
+    
+.azul{
+    color:cornflowerblue;}
+
+.imput-button{
+    background: cornflowerblue;
+    padding: 10px;} 
